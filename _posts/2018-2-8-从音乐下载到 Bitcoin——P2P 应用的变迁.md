@@ -1,7 +1,7 @@
 ---
 title: 从音乐下载到 Bitcoin——P2P 应用的变迁
 date: 2018-2-8 0:00:39
-tags: 日记
+tags: diary
 ---
 > Sean Parker: 我已经用 Napster 击垮他们的唱片公司了，凯斯风险投资会为罪过付出代价。
 Eduardo Saverin: 不好意思，你并没击垮唱片公司，他们赢了。
