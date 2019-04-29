@@ -56,15 +56,7 @@ df_movies.head()
 
 Out[2]:
 
-|      |     id |   imdb_id | popularity |    budget |    revenue |               original_title |                                                 cast |                                          homepage |         director |                       tagline |  ... |                                          overview | runtime |                                       genres |                                production_companies | release_date | vote_count | vote_average | release_year |   budget_adj |  revenue_adj |
-| ---: | -----: | --------: | ---------: | --------: | ---------: | ---------------------------: | ---------------------------------------------------: | ------------------------------------------------: | ---------------: | ----------------------------: | ---: | ------------------------------------------------: | ------: | -------------------------------------------: | --------------------------------------------------: | -----------: | ---------: | -----------: | -----------: | -----------: | -----------: |
-|    0 | 135397 | tt0369610 |  32.985763 | 150000000 | 1513528810 |               Jurassic World | Chris Pratt\|Bryce Dallas Howard\|Irrfan Khan\|Vi... |                     http://www.jurassicworld.com/ |  Colin Trevorrow |             The park is open. |  ... | Twenty-two years after the events of Jurassic ... |     124 | Action\|Adventure\|Science Fiction\|Thriller | Universal Studios\|Amblin Entertainment\|Legenda... |       6/9/15 |       5562 |          6.5 |         2015 | 1.379999e+08 | 1.392446e+09 |
-|    1 |  76341 | tt1392190 |  28.419936 | 150000000 |  378436354 |           Mad Max: Fury Road | Tom Hardy\|Charlize Theron\|Hugh Keays-Byrne\|Nic... |                       http://www.madmaxmovie.com/ |    George Miller |            What a Lovely Day. |  ... | An apocalyptic story set in the furthest reach... |     120 | Action\|Adventure\|Science Fiction\|Thriller |  Village Roadshow Pictures\|Kennedy Miller Produ... |      5/13/15 |       6185 |          7.1 |         2015 | 1.379999e+08 | 3.481613e+08 |
-|    2 | 262500 | tt2908446 |  13.112507 | 110000000 |  295238201 |                    Insurgent | Shailene Woodley\|Theo James\|Kate Winslet\|Ansel... |    http://www.thedivergentseries.movie/#insurgent | Robert Schwentke |    One Choice Can Destroy You |  ... | Beatrice Prior must confront her inner demons ... |     119 |         Adventure\|Science Fiction\|Thriller | Summit Entertainment\|Mandeville Films\|Red Wago... |      3/18/15 |       2480 |          6.3 |         2015 | 1.012000e+08 | 2.716190e+08 |
-|    3 | 140607 | tt2488496 |  11.173104 | 200000000 | 2068178225 | Star Wars: The Force Awakens | Harrison Ford\|Mark Hamill\|Carrie Fisher\|Adam D... | http://www.starwars.com/films/star-wars-episod... |      J.J. Abrams | Every generation has a story. |  ... | Thirty years after defeating the Galactic Empi... |     136 |  Action\|Adventure\|Science Fiction\|Fantasy |         Lucasfilm\|Truenorth Productions\|Bad Robot |     12/15/15 |       5292 |          7.5 |         2015 | 1.839999e+08 | 1.902723e+09 |
-|    4 | 168259 | tt2820852 |   9.335014 | 190000000 | 1506249360 |                    Furious 7 | Vin Diesel\|Paul Walker\|Jason Statham\|Michelle ... |                          http://www.furious7.com/ |        James Wan |           Vengeance Hits Home |  ... | Deckard Shaw seeks revenge against Dominic Tor... |     137 |                      Action\|Crime\|Thriller | Universal Pictures\|Original Film\|Media Rights ... |       4/1/15 |       2947 |          7.3 |         2015 | 1.747999e+08 | 1.385749e+09 |
-
-5 rows × 21 columns
+![](https://res.cloudinary.com/djyqus4uy/image/upload/v1556523663/Blog/Snipaste_2019-04-29_15-40-05_%E7%BB%93%E6%9E%9C_d9pfxd.jpg)
 
 
 
@@ -81,13 +73,7 @@ df_movies.head()
 
 Out[3]:
 
-|      |     id |   imdb_id | popularity |    budget |    revenue |               original_title |                                                 cast |                                          homepage |         director |                       tagline |  ... |                                          overview | runtime |                                       genres |      production_companies | release_date | vote_count | vote_average | release_year |   budget_adj |  revenue_adj |
-| ---: | -----: | --------: | ---------: | --------: | ---------: | ---------------------------: | ---------------------------------------------------: | ------------------------------------------------: | ---------------: | ----------------------------: | ---: | ------------------------------------------------: | ------: | -------------------------------------------: | ------------------------: | -----------: | ---------: | -----------: | -----------: | -----------: | -----------: |
-|    0 | 135397 | tt0369610 |  32.985763 | 150000000 | 1513528810 |               Jurassic World | Chris Pratt\|Bryce Dallas Howard\|Irrfan Khan\|Vi... |                     http://www.jurassicworld.com/ |  Colin Trevorrow |             The park is open. |  ... | Twenty-two years after the events of Jurassic ... |     124 | Action\|Adventure\|Science Fiction\|Thriller |         Universal Studios |       6/9/15 |       5562 |          6.5 |         2015 | 1.379999e+08 | 1.392446e+09 |
-|    1 |  76341 | tt1392190 |  28.419936 | 150000000 |  378436354 |           Mad Max: Fury Road | Tom Hardy\|Charlize Theron\|Hugh Keays-Byrne\|Nic... |                       http://www.madmaxmovie.com/ |    George Miller |            What a Lovely Day. |  ... | An apocalyptic story set in the furthest reach... |     120 | Action\|Adventure\|Science Fiction\|Thriller | Village Roadshow Pictures |      5/13/15 |       6185 |          7.1 |         2015 | 1.379999e+08 | 3.481613e+08 |
-|    2 | 262500 | tt2908446 |  13.112507 | 110000000 |  295238201 |                    Insurgent | Shailene Woodley\|Theo James\|Kate Winslet\|Ansel... |    http://www.thedivergentseries.movie/#insurgent | Robert Schwentke |    One Choice Can Destroy You |  ... | Beatrice Prior must confront her inner demons ... |     119 |         Adventure\|Science Fiction\|Thriller |      Summit Entertainment |      3/18/15 |       2480 |          6.3 |         2015 | 1.012000e+08 | 2.716190e+08 |
-|    3 | 140607 | tt2488496 |  11.173104 | 200000000 | 2068178225 | Star Wars: The Force Awakens | Harrison Ford\|Mark Hamill\|Carrie Fisher\|Adam D... | http://www.starwars.com/films/star-wars-episod... |      J.J. Abrams | Every generation has a story. |  ... | Thirty years after defeating the Galactic Empi... |     136 |  Action\|Adventure\|Science Fiction\|Fantasy |                 Lucasfilm |     12/15/15 |       5292 |          7.5 |         2015 | 1.839999e+08 | 1.902723e+09 |
-|    4 | 168259 | tt2820852 |   9.335014 | 190000000 | 1506249360 |                    Furious 7 | Vin Diesel\|Paul Walker\|Jason Statham\|Michelle ... |                          http://www.furious7.com/ |        James Wan |           Vengeance Hits Home |  ... | Deckard Shaw seeks revenge against Dominic Tor... |     137 |                      Action\|Crime\|Thriller |        Universal Pictures |       4/1/15 |       2947 |          7.3 |         2015 | 1.747999e+08 | 1.385749e+09 |
+![](https://res.cloudinary.com/djyqus4uy/image/upload/v1556523774/Blog/Snipaste_2019-04-29_15-42-40_hxomqg.jpg)
 
 5 rows × 21 columns
 
@@ -140,18 +126,7 @@ df_movies.describe()
 
 Out[5]:
 
-|       |            id |   popularity |       budget |      revenue |      runtime |   vote_count | vote_average | release_year |   budget_adj |  revenue_adj |
-| ----: | ------------: | -----------: | -----------: | -----------: | -----------: | -----------: | -----------: | -----------: | -----------: | -----------: |
-| count |  10866.000000 | 10866.000000 | 1.086600e+04 | 1.086600e+04 | 10866.000000 | 10866.000000 | 10866.000000 | 10866.000000 | 1.086600e+04 | 1.086600e+04 |
-|  mean |  66064.177434 |     0.646441 | 1.462570e+07 | 3.982332e+07 |   102.070863 |   217.389748 |     5.974922 |  2001.322658 | 1.755104e+07 | 5.136436e+07 |
-|   std |  92130.136561 |     1.000185 | 3.091321e+07 | 1.170035e+08 |    31.381405 |   575.619058 |     0.935142 |    12.812941 | 3.430616e+07 | 1.446325e+08 |
-|   min |      5.000000 |     0.000065 | 0.000000e+00 | 0.000000e+00 |     0.000000 |    10.000000 |     1.500000 |  1960.000000 | 0.000000e+00 | 0.000000e+00 |
-|   25% |  10596.250000 |     0.207583 | 0.000000e+00 | 0.000000e+00 |    90.000000 |    17.000000 |     5.400000 |  1995.000000 | 0.000000e+00 | 0.000000e+00 |
-|   50% |  20669.000000 |     0.383856 | 0.000000e+00 | 0.000000e+00 |    99.000000 |    38.000000 |     6.000000 |  2006.000000 | 0.000000e+00 | 0.000000e+00 |
-|   75% |  75610.000000 |     0.713817 | 1.500000e+07 | 2.400000e+07 |   111.000000 |   145.750000 |     6.600000 |  2011.000000 | 2.085325e+07 | 3.369710e+07 |
-|   max | 417859.000000 |    32.985763 | 4.250000e+08 | 2.781506e+09 |   900.000000 |  9767.000000 |     9.200000 |  2015.000000 | 4.250000e+08 | 2.827124e+09 |
-
-
+![](https://res.cloudinary.com/djyqus4uy/image/upload/v1556523874/Blog/Snipaste_2019-04-29_15-43-56_ggu0rb.jpg)
 
 budget，runtime，budget_adj，revenue_adj 存在数据异常点，接下来对这些数据进行处理，去掉等于0的数据：
 
@@ -167,18 +142,7 @@ df_movies.describe()
 
 Out[6]:
 
-|       |            id |  popularity |       budget |      revenue |     runtime |  vote_count | vote_average | release_year |   budget_adj |  revenue_adj |
-| ----: | ------------: | ----------: | -----------: | -----------: | ----------: | ----------: | -----------: | -----------: | -----------: | -----------: |
-| count |   3855.000000 | 3855.000000 | 3.855000e+03 | 3.855000e+03 | 3855.000000 | 3855.000000 |   3855.00000 |  3855.000000 | 3.855000e+03 | 3.855000e+03 |
-|  mean |  39888.783398 |    1.191400 | 3.720183e+07 | 1.076589e+08 |  109.215824 |  527.611933 |      6.16786 |  2001.263294 | 4.423630e+07 | 1.370294e+08 |
-|   std |  67213.815955 |    1.475002 | 4.220291e+07 | 1.765248e+08 |   19.922166 |  879.868374 |      0.79504 |    11.281989 | 4.480403e+07 | 2.160944e+08 |
-|   min |      5.000000 |    0.001117 | 1.000000e+00 | 2.000000e+00 |   15.000000 |   10.000000 |      2.20000 |  1960.000000 | 9.693980e-01 | 2.370705e+00 |
-|   25% |   6074.000000 |    0.462448 | 1.000000e+07 | 1.357645e+07 |   95.000000 |   71.000000 |      5.70000 |  1995.000000 | 1.309053e+07 | 1.834123e+07 |
-|   50% |  11322.000000 |    0.797298 | 2.400000e+07 | 4.479322e+07 |  106.000000 |  204.000000 |      6.20000 |  2004.000000 | 3.001558e+07 | 6.171861e+07 |
-|   75% |  38577.000000 |    1.368245 | 5.000000e+07 | 1.241530e+08 |  119.000000 |  580.000000 |      6.70000 |  2010.000000 | 6.061307e+07 | 1.632401e+08 |
-|   max | 417859.000000 |   32.985763 | 4.250000e+08 | 2.781506e+09 |  338.000000 | 9767.000000 |      8.40000 |  2015.000000 | 4.250000e+08 | 2.827124e+09 |
-
-
+![](https://res.cloudinary.com/djyqus4uy/image/upload/v1556523917/Blog/Snipaste_2019-04-29_15-45-06_pcf6wi.jpg)
 
 
 
