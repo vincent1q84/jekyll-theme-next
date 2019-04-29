@@ -353,10 +353,5 @@ Text(0,0.5,'revenue_adj')
 
 ## 参考网页
 
-1. pandas.DataFrame.corr 
-
-   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html
-
-2. matplotlib.markers 
-
-   https://matplotlib.org/api/markers_api.html
+1. pandas.DataFrame.corr 链接: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html
+2. matplotlib.markers 链接: https://matplotlib.org/api/markers_api.html
