@@ -7,7 +7,7 @@ tags: learn
 
 ---
 
-视频地址：https://www.youtube.com/watch?v=5MgBikgcWnY
+视频地址：[油管链接](https://www.youtube.com/watch?v=5MgBikgcWnY)
 
 想学一门外语，想学画画，想学怎么耍电锯？
 
