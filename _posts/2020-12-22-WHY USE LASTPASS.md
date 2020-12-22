@@ -28,6 +28,12 @@ tags: Internet
 
 虽然现在的 android 和 iOS 自带了密码管理器，但不方便跨平台使用，也不方便添加密码笔记。lastpass和bitwarden在Windows和macOS的多个浏览器里都有扩展（比如[Chrome](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl)、[Edge](https://www.microsoft.com/en-us/p/lastpass-for-microsoft-edge/9nblggh4v7x0?activetab=pivot:overviewtab)、Safari等浏览器扩展），可以跨平台使用。（以前Edge安装过微软扩微软扩展商店等扩展后，需要重新打开Edge才能正常使用扩展，不知道现在是否有修复这个问题，Edge和Chrome内核相同，可以直接装Chrome的扩展，装过后不用重新启动Edge）
 
+## 在 iOS 上自动填写密码
+
+在 设置 - 密码与账户 - 自动填充密码 中，选择lastpass。（iCloud 钥匙串和 lastpass可以同时勾选。）
+
+![autofill](https://res.cloudinary.com/djyqus4uy/image/upload/v1608639529/Blog/lastpass_ios_ees3lz.jpg)
+
 
 
 ## 为Lastpass开启两步验证
