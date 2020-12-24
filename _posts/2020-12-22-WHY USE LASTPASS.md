@@ -18,7 +18,7 @@ tags: Internet
 
 在加州大学洛杉矶分校的网页上，[WHY USE LASTPASS](https://www.it.ucla.edu/security/services/why-should-I-use-LastPass#bootstrap-fieldgroup-accordion-item--why-use-lastpass--2-2) 一栏介绍了lastpass为什么安全。它使用最新的加密算法，网站服务器上不存储用户的主密码，也就是说 lastpass 的员工也没法知道你的主密码。
 
-*备注*：市面上的同类密码管理器还有其它选择。比如最近几年口碑较好的新晋密码管理器bitwarden，不过bitwarden没有恢复主密码的功能（lastpass有这个功能），一旦用户自己忘了主密码，没任何办法访问自己的密码管理器。所以，使用bitwarden千万不要忘记自己的主密码。
+*备注*：市面上的同类密码管理器还有其它选择。比如付费的1Password和最近几年口碑较好的新晋密码管理器bitwarden（有免费版和付费版），不过bitwarden没有恢复主密码的功能（lastpass和1Password有这个功能），一旦用户自己忘了主密码，没任何办法访问自己的密码管理器。所以，使用bitwarden千万不要忘记自己的主密码。
 
 没有恢复主密码的功能也有好处，减少了密码被盗的攻击面，盗取密码的人也没法通过恢复密码这个功能去盗取密码。
 
@@ -26,7 +26,7 @@ tags: Internet
 
 有些密码管理器的免费版会限制存储密码的数量，lastpass和bitwarden的免费版不会限制存储密码的数量。
 
-虽然现在的 android 和 iOS 自带了密码管理器，但不方便跨平台使用，也不方便添加密码笔记。lastpass和bitwarden在Windows和macOS的多个浏览器里都有扩展（比如[Chrome](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl)、[Edge](https://www.microsoft.com/en-us/p/lastpass-for-microsoft-edge/9nblggh4v7x0?activetab=pivot:overviewtab)、Safari等浏览器扩展），可以跨平台使用。（以前Edge安装过微软扩微软扩展商店等扩展后，需要重新打开Edge才能正常使用扩展，不知道现在是否有修复这个问题，Edge和Chrome内核相同，可以直接装Chrome的扩展，装过后不用重新启动Edge）
+虽然现在的 android 和 iOS 自带了密码管理器，但不方便跨平台使用，也不方便添加密码笔记。lastpass、1Password和bitwarden在Windows和macOS的多个浏览器里都有扩展（比如[Chrome](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl)、[Edge](https://www.microsoft.com/en-us/p/lastpass-for-microsoft-edge/9nblggh4v7x0?activetab=pivot:overviewtab)、Safari等浏览器扩展），可以跨平台使用。（以前Edge安装过微软扩微软扩展商店等扩展后，需要重新打开Edge才能正常使用扩展，不知道现在是否有修复这个问题，Edge和Chrome内核相同，可以直接装Chrome的扩展，装过后不用重新启动Edge）
 
 ## 在 iOS 上自动填写密码
 
@@ -48,7 +48,7 @@ Lastpass有多种验证方式可以选。如下图，选择其中一种即可。
 
 如果丢了两步验证器，并且没有备份，在登陆lastpass时选择“disable” the multifactor authentication，lastpass会发一封邮件到注册邮箱里，通过邮件里的链接关闭两步验证。
 
-## 如果忘掉主密码，如何恢复
+## 如果忘掉lastpass主密码，如何恢复
 
 这是可选步骤，可以开启其中的一种或几种，也可以不开启。
 
