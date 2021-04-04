@@ -26,6 +26,8 @@ tags: Internet
 
 有些密码管理器的免费版会限制存储密码的数量，lastpass和bitwarden的免费版不会限制存储密码的数量。
 
+**（更新：lastpass修改了收费规则，自2021年3月16日起，不再提供全平台的免费服务，用户只能在移动端或者桌面端种，选择一个免费试用(只用iOS、Android 或只用电电脑）**
+
 虽然现在的 android 和 iOS 自带了密码管理器，但不方便跨平台使用，也不方便添加密码笔记。lastpass、1Password和bitwarden在Windows和macOS的多个浏览器里都有扩展（比如[Chrome](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl)、[Edge](https://www.microsoft.com/en-us/p/lastpass-for-microsoft-edge/9nblggh4v7x0?activetab=pivot:overviewtab)、Safari等浏览器扩展），可以跨平台使用。（以前Edge安装过微软扩微软扩展商店等扩展后，需要重新打开Edge才能正常使用扩展，不知道现在是否有修复这个问题，Edge和Chrome内核相同，可以直接装Chrome的扩展，装过后不用重新启动Edge）
 
 ## 在 iOS 上自动填写密码
@@ -80,6 +82,8 @@ lastpass的博客上给出了多种方式
 4. Scroll down to “SMS Account Recovery”. 向下滚动到“ SMS 帐户恢复”
 5. Select the option to add a phone number. 选择添加电话号码的选项
 6. Save your changes with the “Update” button. 用“**Update**”按钮保存更改
+
+
 
 
 
